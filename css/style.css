@@ -1,0 +1,66 @@
+body{
+    background-color: #F2F2F2;
+    color:rgb(74, 74, 74);
+    font-size : 100%;
+    line-height:100%;
+    margin:0px;
+}
+
+
+#container{
+    display: block;
+    width:80%;
+    margin: 0 auto;
+    font-family: TestFont , arial;
+}
+
+
+header{
+    display:flex;
+    flex-direction:row;
+    background : #444242;
+    height: 70px;
+    box-shadow: 0px 2px 4px 1px #999;
+}
+
+header .logobox{
+    background: #ff007e;
+    padding:0 20px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    font-family:tahoma;
+}
+
+header .logobox span{
+    line-height:1;
+}
+
+
+header .toolbox {
+    display:flex;
+    flex:1;
+}
+
+.UnitTest{
+    background-color:#fefefe;
+    
+    box-shadow: 0px 2px 4px 1px #999;
+    padding:15px;
+    margin:20px 0%;
+            font-size : 1em;
+        line-height:1.6em;
+        display:flex;
+    border-radius:3px;
+}
+
+
+.UnitTest textarea{
+       flex:1;
+       background-color:#f0f0e1;
+       height:250px;
+       font-family:tahoma;
+       padding:10px;
+       font-size:14px;
+       border:1px solid #ccc;
+}
